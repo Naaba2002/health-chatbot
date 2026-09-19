@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HealthCheck — Symptom Assessment Chatbot</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+</head>
+<body>
+  <div class="app">
+    <header class="app-header">
+      <div class="brand">
+        <span class="brand-icon">➕</span>
+        <span class="brand-name">HealthCheck</span>
+      </div>
+      <button id="resetBtn" class="reset-btn" title="Start a new check">New Check</button>
+    </header>
+
+    <div class="disclaimer-banner">
+      This tool provides general preliminary information only and is <strong>not a medical
+      diagnosis</strong>. In an emergency, contact your local emergency services immediately.
+    </div>
+
+    <main id="chatWindow" class="chat-window" aria-live="polite"></main>
+
+    <div id="quickReplies" class="quick-replies"></div>
+
+    <form id="chatForm" class="chat-input-bar">
+      <input
+        id="chatInput"
+        type="text"
+        autocomplete="off"
+        placeholder="Describe your symptoms, e.g. 'I have a fever and headache'"
+      />
+      <button type="submit" id="sendBtn">Send</button>
+    </form>
+
+    <footer class="app-footer">
+      Basic Symptom Assessment &amp; Preliminary Health Advice — Final Year Project
+    </footer>
+  </div>
+
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

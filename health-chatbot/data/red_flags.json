@@ -1,0 +1,38 @@
+{
+  "chest_pain": {
+    "keywords": ["chest pain", "tightness in my chest", "chest tightness", "pain in my chest"],
+    "message": "Chest pain can be a sign of a serious heart or lung problem."
+  },
+  "difficulty_breathing": {
+    "keywords": ["difficulty breathing", "shortness of breath", "can't breathe", "cant breathe", "breathless", "struggling to breathe"],
+    "message": "Difficulty breathing can indicate a serious respiratory or cardiac emergency."
+  },
+  "severe_bleeding": {
+    "keywords": ["heavy bleeding", "uncontrolled bleeding", "severe bleeding", "won't stop bleeding", "wont stop bleeding"],
+    "message": "Uncontrolled or heavy bleeding needs immediate medical attention."
+  },
+  "loss_of_consciousness": {
+    "keywords": ["fainted", "passed out", "unconscious", "unresponsive", "lost consciousness"],
+    "message": "Loss of consciousness or fainting can signal a serious underlying condition."
+  },
+  "stroke_signs": {
+    "keywords": ["slurred speech", "face drooping", "one side weakness", "numbness on one side", "can't move one side", "cant move one side"],
+    "message": "These symptoms can be signs of a stroke, where every minute matters."
+  },
+  "stiff_neck_fever": {
+    "keywords": ["stiff neck", "neck stiffness"],
+    "message": "A stiff neck together with fever can be a sign of a serious infection such as meningitis."
+  },
+  "severe_abdominal_pain": {
+    "keywords": ["severe stomach pain", "excruciating abdominal pain", "unbearable stomach pain", "worst stomach pain"],
+    "message": "Severe, unbearable abdominal pain can indicate a serious condition requiring urgent evaluation."
+  },
+  "seizure": {
+    "keywords": ["seizure", "convulsion", "convulsing", "had a fit"],
+    "message": "Seizures require prompt medical evaluation."
+  },
+  "self_harm": {
+    "keywords": ["want to die", "suicidal", "kill myself", "end my life", "hurt myself", "harm myself"],
+    "message": "What you're going through sounds really hard, and your safety matters. Please reach out to a crisis line or emergency service right away, or go to the nearest hospital. In Ghana, you can contact the Mental Health Authority helpline (0800 678 678, toll-free) or call the national emergency number 112. If you're outside Ghana, please contact your local emergency number or a crisis helpline."
+  }
+}

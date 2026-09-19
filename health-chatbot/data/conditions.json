@@ -1,0 +1,92 @@
+[
+  {
+    "id": "common_cold",
+    "name": "Common Cold",
+    "urgency": "self_care",
+    "symptoms": {
+      "runny_nose": 3, "sneezing": 2, "sore_throat": 2, "cough": 1, "fatigue": 1
+    },
+    "advice": "This looks like it could be a common cold. Rest, drink plenty of fluids, and over-the-counter cold remedies can help ease symptoms. It usually clears up on its own within 7 to 10 days."
+  },
+  {
+    "id": "influenza",
+    "name": "Influenza (Flu)",
+    "urgency": "routine",
+    "symptoms": {
+      "fever": 3, "body_aches": 3, "fatigue": 2, "headache": 2, "cough": 2, "chills": 2
+    },
+    "advice": "Your symptoms are consistent with the flu. Rest, stay hydrated, and paracetamol can help with fever and aches. See a healthcare provider if symptoms worsen, last more than a week, or if you are pregnant, elderly, or have an existing health condition."
+  },
+  {
+    "id": "malaria",
+    "name": "Malaria",
+    "urgency": "urgent",
+    "symptoms": {
+      "fever": 3, "chills": 3, "sweating": 2, "headache": 2, "body_aches": 2, "nausea": 1, "vomiting": 1, "fatigue": 1
+    },
+    "advice": "Your symptoms could suggest malaria, which is common in this region and can become serious quickly. Please visit a health facility for a malaria test (RDT or microscopy) as soon as possible, especially if the fever is high or keeps returning."
+  },
+  {
+    "id": "typhoid",
+    "name": "Typhoid Fever",
+    "urgency": "urgent",
+    "symptoms": {
+      "fever": 3, "abdominal_pain": 2, "headache": 2, "loss_of_appetite": 2, "fatigue": 1, "constipation": 1, "diarrhea": 1
+    },
+    "advice": "A persistent fever along with stomach pain and poor appetite can be a sign of typhoid fever. Please see a healthcare provider for testing, especially if the fever has lasted more than 3 days."
+  },
+  {
+    "id": "gastroenteritis",
+    "name": "Gastroenteritis / Food Poisoning",
+    "urgency": "routine",
+    "symptoms": {
+      "diarrhea": 3, "vomiting": 3, "nausea": 2, "abdominal_pain": 2, "fever": 1
+    },
+    "advice": "This looks like it could be gastroenteritis or food poisoning. Drink oral rehydration solution or plenty of fluids, and eat light foods as tolerated. See a doctor if diarrhea or vomiting lasts more than 2 days, or if you notice signs of dehydration such as reduced urination or extreme thirst."
+  },
+  {
+    "id": "migraine_headache",
+    "name": "Migraine / Tension Headache",
+    "urgency": "self_care",
+    "symptoms": {
+      "headache": 3, "nausea": 1, "dizziness": 1, "fatigue": 1
+    },
+    "advice": "This may be a tension headache or migraine. Resting in a quiet, dark room, staying hydrated, and mild over-the-counter pain relief can help. See a doctor if the headache is sudden and severe, keeps recurring, or is unlike any headache you've had before."
+  },
+  {
+    "id": "uti",
+    "name": "Urinary Tract Infection (UTI)",
+    "urgency": "routine",
+    "symptoms": {
+      "painful_urination": 3, "frequent_urination": 2, "abdominal_pain": 1, "fever": 1
+    },
+    "advice": "Your symptoms could point to a urinary tract infection. Please see a healthcare provider, as this usually needs antibiotic treatment. Drink plenty of water in the meantime."
+  },
+  {
+    "id": "allergic_reaction",
+    "name": "Allergic Reaction / Allergic Rhinitis",
+    "urgency": "self_care",
+    "symptoms": {
+      "sneezing": 2, "itching": 2, "rash": 2, "eye_redness": 2, "runny_nose": 1
+    },
+    "advice": "This looks like it could be an allergic reaction. Try to identify and avoid the trigger, and an antihistamine may help. Seek urgent care immediately if you develop swelling of the face or throat, or difficulty breathing."
+  },
+  {
+    "id": "sinusitis",
+    "name": "Sinusitis",
+    "urgency": "self_care",
+    "symptoms": {
+      "headache": 2, "runny_nose": 2, "sore_throat": 1, "fatigue": 1
+    },
+    "advice": "Your symptoms could suggest sinusitis. Steam inhalation, hydration, and a decongestant may help. See a doctor if symptoms persist beyond 10 days or are severe."
+  },
+  {
+    "id": "dehydration",
+    "name": "Dehydration",
+    "urgency": "routine",
+    "symptoms": {
+      "dizziness": 2, "fatigue": 2, "headache": 1, "nausea": 1
+    },
+    "advice": "Your symptoms could be related to dehydration. Increase your fluid intake and rest. Seek care if you feel severely dizzy, confused, or are unable to keep fluids down."
+  }
+]
